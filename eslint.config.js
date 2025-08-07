@@ -1,9 +1,11 @@
 export default [
     {
         files: ['**/*.js'],
-        lenguageOptions: {
-            ecmaVersion: 'latest',
-            sourceType: 'module',
+        languageOptions: {  // Cambié 'parserOptions' a 'languageOptions'
+            parserOptions: {
+                ecmaVersion: 'latest',
+                sourceType: 'module',
+            },
         },
         rules: {
             semi: ['error', 'always'],
