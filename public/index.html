@@ -1,16 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
+    <title>Perfil — Clima & Conversión</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        body {
+            background: #e3f2fd;
+            color: #263238;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header,
+        footer {
+            background: #1976d2;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(25, 118, 210, 0.1);
+            padding: 2em;
+            max-width: 400px;
+            margin: 2em auto;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 0.5em 0;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>¡Sitio estático!</h1>
-    <p id="out"></p>
-    <script src="app.js"></script>
+    <header>
+        <h1>Perfil — Clima & Conversión</h1>
+    </header>
+    <main>
+        <h2>Jossue Toscano</h2>
+        <p><strong>NRC:</strong> 23311</p>
+        <p><strong>Correo:</strong> jatoscano6@espe.edu.ec</p>
+        <p>
+            Soy estudiante de ingeniería de Software. Me apasiona la programación y el desarrollo web.<br>
+            Actualmente estoy aprendiendo sobre integración y despliegue continuo.<br>
+            Me gusta trabajar en equipo y enfrentar nuevos retos.<br>
+            Disfruto resolver problemas y crear soluciones útiles.<br>
+            Busco mejorar mis habilidades cada día.
+        </p>
+        <ul>
+            <li>Ciudad: Quito</li>
+            <li>Pasatiempo: Jugar Videojuegos</li>
+            <li>Lenguaje favorito: JavaScript</li>
+        </ul>
+    </main>
+    <footer>
+        <small>&copy; 2025 Jossue Toscano — Universidad de las Fuerzas Armadas ESPE</small>
+    </footer>
 </body>
 
 </html>
