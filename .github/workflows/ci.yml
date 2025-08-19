@@ -28,6 +28,4 @@ jobs:
 
       - name: Simular despliegue
         run: |
-          echo "Despliegue simulado: La aplicacion pasó
-          Lint y pruebas exitosamente"
-          
+          echo "Despliegue simulado: La aplicacion pasó Lint y pruebas exitosamente"
